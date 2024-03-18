@@ -1,0 +1,69 @@
+body {
+    background-color: hsl(34, 78%, 91%);
+    font-family: sans-serif;
+  }
+  
+  .calc {
+    background-color: hsl(34, 78%, 91%);
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .main {
+    background-color: hsl(0, 4%, 14%);
+    padding: 10px;
+    width: 300px;
+    border-radius: 5px;
+  }
+  
+  .display {
+    background-color: hsl(0, 0%, 50%);
+    margin-bottom: 10px;
+    text-align: end;
+    border-radius: 5px;
+  }
+  
+  button {
+    border: 1px solid black;
+    border-radius: 5px;
+    font-size: 30px;
+    min-width: 75px;
+    min-height: 75px;
+  }
+  
+  .operation {
+    background-color: hsl(300, 47%, 75%);
+  }
+  
+  .dvn.selected, 
+  .mtp.selected, 
+  .sub.selected, 
+  .add.selected {
+    background-color: hsl(300, 47%, 75%, 70%);
+  }
+  
+  .clear, .back, .percent {
+    background-color: hsl(177, 70%, 41%);
+  }
+  
+  .number, .dot, .sign {
+    background-color: hsl(160, 100%, 75%);
+  }
+  
+  .buttons {
+    display: flex;
+  }
+  
+  .numbers {
+    display: flex;
+    flex-wrap: wrap-reverse;
+  }
+  
+  .extras {
+    display: flex;
+  }
+  
+  .dot:disabled {
+    background-color: hsl(0, 59%, 41%);
+  }
